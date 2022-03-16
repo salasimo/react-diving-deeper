@@ -20,6 +20,11 @@ function App() {
             <AddUser onAddUser={addUserHandler} />
             <UsersList users={usersList} />
         </>
+        // Alternative way to use Fragment that always works
+        //     <React.Fragment>
+        //         <AddUser onAddUser={addUserHandler} />
+        //         <UsersList users={usersList} />
+        //     </React.Fragment>
     );
 }
 

@@ -49,6 +49,8 @@ const AddUser = (props) => {
     };
 
     return (
+        // Wrapper is a component that wraps the AddUser component but we can use Fragment!!!!
+
         <Wrapper>
             {error && (
                 <ErrorModal
